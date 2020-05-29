@@ -1,0 +1,393 @@
+
+ [31m######################################################################
+ #                                                                    #
+ #  PODO Version 2.2                                                  #
+ #  Copyright 2016 Rainbow Robotics Co.                               #
+ #                                                                    #
+ #  Main developer: Jeongsoo Lim                                      #
+ #  E-mail: yjs0497@kaist.ac.kr                                       #
+ #                                                                    #
+ #  We touch the core!                                                #
+ #                                                                    #
+ ######################################################################
+
+[1;31m- Daemon	18:50.178 ERROR  : =========Daemon Setting==========[0m
+[1;33m- Daemon	18:50.178 WARNING: ./Daemon[0m
+[1;33m- Daemon	18:50.178 WARNING: Daemon for Robot[0m
+[1;33m- Daemon	18:50.178 WARNING: FOG is used[0m
+[1;33m- Daemon	18:50.178 WARNING: ROS is used[0m
+[1;33m- Daemon	18:50.178 WARNING: Extra Right Finger is used[0m
+[1;33m- Daemon	18:50.178 WARNING: Extra Left Finger is used[0m
+[1;31m- Daemon	18:50.178 ERROR  : =================================[0m
+
+
+[1;31m- Daemon	18:50.178 ERROR  : ==========Initializing===========[0m
+[1;32m- Daemon	18:50.178 SUCCESS: Core shared memory creation = OK [Reference][0m
+[1;32m- Daemon	18:50.178 SUCCESS: Core shared memory creation = OK [Sensor][0m
+[1;32m- Daemon	18:50.178 SUCCESS: Core shared memory creation = OK [Command][0m
+[1;32m- Daemon	18:50.180 SUCCESS: Core load database = OK[0m
+----------------------------------
+     VERSION       : 20140331
+     NO_OF_AL      : 10
+     NO_OF_COMM_CH : 4
+     NO_OF_MC      : 29
+     NO_OF_FT      : 4
+     NO_OF_IMU     : 1
+     NO_OF_SP      : 1
+     NO_OF_OF      : 2
+----------------------------------
+[1;32m- Daemon	18:50.318 SUCCESS: CAN hardware initialize = OK[0m
+[1;32m- Daemon	18:50.322 SUCCESS: Core real-time thread start = OK[0m
+[1;32m- Daemon	18:50.366 SUCCESS: FOG Port Open Success [ttyUSB0][0m
+[1;31m- Daemon	18:50.366 ERROR  : =================================[0m
+
+[1;32m- Daemon	18:50.366 SUCCESS: AL[1: PODOLAN] is working now..[0m
+
+[1;31m- Connect2GUI	18:50.393 ERROR  : ===========AL Setting============[0m
+[1;33m- Connect2GUI	18:50.393 WARNING: /home/rainbow/podo_nrl/build/ALBuild/PODOLAN/PODOLAN[0m
+[1;33m- Connect2GUI	18:50.393 WARNING: AL for Robot[0m
+[1;33m- Connect2GUI	18:50.393 WARNING: ROS is used[0m
+[1;33m- Connect2GUI	18:50.393 WARNING: AL Number: 1[0m
+[1;31m- Connect2GUI	18:50.394 ERROR  : =================================[0m
+
+[1;32m- Connect2GUI	18:50.394 SUCCESS: Core shared memory creation = OK [Reference][0m
+[1;32m- Connect2GUI	18:50.394 SUCCESS: Core shared memory creation = OK [Sensor][0m
+[1;32m- Connect2GUI	18:50.394 SUCCESS: Core shared memory creation = OK [Command][0m
+[1;32m- Connect2GUI	18:50.394 SUCCESS: User shared memory creation = OK[0m
+[1;32m- Connect2GUI	18:50.394 SUCCESS: RBServer open successed with port(5000)[0m
+[1;32m- Connect2GUI	18:50.394 SUCCESS: RBServer open successed with port(4000)[0m
+- Connect2GUI	18:58.930 INFO   : New client is connected[0m
+- Daemon	23:04.370 INFO   : CMD: DAEMON_INIT_CHECK_DEVICE[0m
+- Daemon	23:36.978 INFO   : CMD: DAEMON_INIT_CHECK_DEVICE[0m
+>>> RMMC: Board(0: RHY) is [32minitialized.[0m[ch 0]
+>>> RMMC: Board(1: RHR) is [32minitialized.[0m[ch 0]
+>>> RMMC: Board(2: RHP) is [32minitialized.[0m[ch 0]
+>>> RMMC: Board(3: RKN) is [32minitialized.[0m[ch 0]
+>>> RMMC: Board(4: RAP, RWH) is [32minitialized.[0m[ch 0]
+>>> RMMC: Board(5: RAR) is [32minitialized.[0m[ch 0]
+>>> RMMC: Board(6: LHY) is [32minitialized.[0m[ch 1]
+>>> RMMC: Board(7: LHR) is [32minitialized.[0m[ch 1]
+>>> RMMC: Board(8: LHP) is [32minitialized.[0m[ch 1]
+>>> RMMC: Board(9: LKN) is [32minitialized.[0m[ch 1]
+>>> RMMC: Board(10: LAP, LWH) is [32minitialized.[0m[ch 1]
+>>> RMMC: Board(11: LAR) is [32minitialized.[0m[ch 1]
+>>> RMMC: Board(12: WST) is [32minitialized.[0m[ch 1]
+>>> RMMC: Board(13: RSP) is [32minitialized.[0m[ch 2]
+>>> RMMC: Board(14: RSR) is [32minitialized.[0m[ch 2]
+>>> RMMC: Board(15: RSY, REB) is [32minitialized.[0m[ch 2]
+>>> RMMC: Board(16: RWY, RWP) is [32minitialized.[0m[ch 2]
+>>> RMMC: Board(17: LSP) is [32minitialized.[0m[ch 3]
+>>> RMMC: Board(18: LSR) is [32minitialized.[0m[ch 3]
+>>> RMMC: Board(19: LSY, LEB) is [32minitialized.[0m[ch 3]
+>>> RMMC: Board(20: LWY, LWP) is [32minitialized.[0m[ch 3]
+>>> RMMC: Board(36: RWY2, RHAND) is [32minitialized.[0m[ch 2]
+>>> RMMC: Board(37: LWY2, LHAND) is [32minitialized.[0m[ch 3]
+>>> RMMC: Board(21: NKP1, NKY) is [32minitialized.[0m[ch 3]
+>>> RMMC: Board(22: NKP2, NKR) is [32minitialized.[0m[ch 3]
+>>> RMMC: Board(38: RF1, RF2) is [32minitialized.[0m[ch 2]
+>>> RMMC: Board(39: RF3, RF4) is [32minitialized.[0m[ch 2]
+>>> RMMC: Board(40: LF1, LF2) is [32minitialized.[0m[ch 3]
+>>> RMMC: Board(41: LF3, LF4) is [32minitialized.[0m[ch 3]
+>>> RMFT: Board(48: RAFT) is [32minitialized.[0m[ch 0]
+>>> RMFT: Board(49: LAFT) is [32minitialized.[0m[ch 1]
+>>> RMFT: Board(53: RWFT) is [32minitialized.[0m[ch 2]
+>>> RMFT: Board(54: LWFT) is [32minitialized.[0m[ch 3]
+>>> RMIMU: Board(50: IMU) is [32minitialized.[0m[ch 1]
+>>> RMSP: Board(24: SPC) is [32minitialized.[0m[ch 1]
+>>> RMOF: Board(52: ROF) is [32minitialized.[0m[ch 0]
+>>> RMOF: Board(56: LOF) is [32minitialized.[0m[ch 1]
+>>> RMMC: Board(0: RHY) is [32minitialized.[0m[ch 0]
+>>> RMMC: Board(1: RHR) is [32minitialized.[0m[ch 0]
+>>> RMMC: Board(2: RHP) is [32minitialized.[0m[ch 0]
+>>> RMMC: Board(3: RKN) is [32minitialized.[0m[ch 0]
+>>> RMMC: Board(4: RAP, RWH) is [32minitialized.[0m[ch 0]
+>>> RMMC: Board(5: RAR) is [32minitialized.[0m[ch 0]
+>>> RMMC: Board(6: LHY) is [32minitialized.[0m[ch 1]
+>>> RMMC: Board(7: LHR) is [32minitialized.[0m[ch 1]
+>>> RMMC: Board(8: LHP) is [32minitialized.[0m[ch 1]
+>>> RMMC: Board(9: LKN) is [32minitialized.[0m[ch 1]
+>>> RMMC: Board(10: LAP, LWH) is [32minitialized.[0m[ch 1]
+>>> RMMC: Board(11: LAR) is [32minitialized.[0m[ch 1]
+>>> RMMC: Board(12: WST) is [32minitialized.[0m[ch 1]
+>>> RMMC: Board(13: RSP) is [32minitialized.[0m[ch 2]
+>>> RMMC: Board(14: RSR) is [32minitialized.[0m[ch 2]
+>>> RMMC: Board(15: RSY, REB) is [32minitialized.[0m[ch 2]
+>>> RMMC: Board(16: RWY, RWP) is [32minitialized.[0m[ch 2]
+>>> RMMC: Board(17: LSP) is [32minitialized.[0m[ch 3]
+>>> RMMC: Board(18: LSR) is [32minitialized.[0m[ch 3]
+>>> RMMC: Board(19: LSY, LEB) is [32minitialized.[0m[ch 3]
+>>> RMMC: Board(20: LWY, LWP) is [32minitialized.[0m[ch 3]
+>>> RMMC: Board(36: RWY2, RHAND) is [32minitialized.[0m[ch 2]
+>>> RMMC: Board(37: LWY2, LHAND) is [32minitialized.[0m[ch 3]
+>>> RMMC: Board(21: NKP1, NKY) is [32minitialized.[0m[ch 3]
+>>> RMMC: Board(22: NKP2, NKR) is [32minitialized.[0m[ch 3]
+>>> RMMC: Board(38: RF1, RF2) is [32minitialized.[0m[ch 2]
+>>> RMMC: Board(39: RF3, RF4) is [32minitialized.[0m[ch 2]
+>>> RMMC: Board(40: LF1, LF2) is [32minitialized.[0m[ch 3]
+>>> RMMC: Board(41: LF3, LF4) is [32minitialized.[0m[ch 3]
+>>> RMFT: Board(48: RAFT) is [32minitialized.[0m[ch 0]
+>>> RMFT: Board(49: LAFT) is [32minitialized.[0m[ch 1]
+>>> RMFT: Board(53: RWFT) is [32minitialized.[0m[ch 2]
+>>> RMFT: Board(54: LWFT) is [32minitialized.[0m[ch 3]
+>>> RMIMU: Board(50: IMU) is [- Daemon	24:13.192 INFO   : CMD: DAEMON_INIT_CHECK_DEVICE[0m
+- Daemon	24:29.011 INFO   : CMD: DAEMON_INIT_FIND_HOME[0m
+- Daemon	24:43.784 INFO   : CMD: DAEMON_SENSOR_ENCODER_ONOFF[0m
+- Daemon	24:45.284 INFO   : CMD: DAEMON_SENSOR_SENSOR_ONOFF[0m
+- Daemon	24:50.086 INFO   : CMD: DAEMON_MOTION_REF_ONOFF[0m
+- Daemon	24:54.702 INFO   : CMD: DAEMON_PROCESS_CREATE[0m
+[1;32m- Daemon	24:54.717 SUCCESS: AL[2: WalkReady] is working now..[0m
+[1;31m- WalkReady	24:54.768 ERROR  : KK[0m
+
+[1;31m- WalkReady	24:54.770 ERROR  : ===========AL Setting============[0m
+[1;33m- WalkReady	24:54.770 WARNING: /home/rainbow/podo_nrl/build/ALBuild/PODO_PROC_Build/WalkReady[0m
+[1;33m- WalkReady	24:54.770 WARNING: AL for Robot[0m
+[1;33m- WalkReady	24:54.770 WARNING: AL Number: 2[0m
+[1;31m- WalkReady	24:54.770 ERROR  : =================================[0m
+
+[1;32m- WalkReady	24:54.770 SUCCESS: Core shared memory creation = OK [Reference][0m
+[1;32m- WalkReady	24:54.770 SUCCESS: Core shared memory creation = OK [Sensor][0m
+[1;32m- WalkReady	24:54.770 SUCCESS: Core shared memory creation = OK [Command][0m
+[1;32m- WalkReady	24:54.770 SUCCESS: User shared memory creation = OK[0m
+[1;32m- WalkReady	24:54.770 SUCCESS: Flag real-time thread start = OK[0m
+[1;32m- WalkReady	24:54.770 SUCCESS: Task real-time thread start = OK[0m
+- Daemon	24:56.313 INFO   : CMD: DAEMON_PROCESS_CREATE[0m
+[1;32m- Daemon	24:56.339 SUCCESS: AL[3: OmniWheel] is working now..[0m
+
+[1;31m- OmniWheel	24:56.389 ERROR  : ===========AL Setting============[0m
+[1;33m- OmniWheel	24:56.389 WARNING: /home/rainbow/podo_nrl/build/ALBuild/PODO_PROC_Build/OmniWheel[0m
+[1;33m- OmniWheel	24:56.389 WARNING: AL for Robot[0m
+[1;33m- OmniWheel	24:56.389 WARNING: AL Number: 3[0m
+[1;31m- OmniWheel	24:56.389 ERROR  : =================================[0m
+
+[1;32m- OmniWheel	24:56.389 SUCCESS: Core shared memory creation = OK [Reference][0m
+[1;32m- OmniWheel	24:56.389 SUCCESS: Core shared memory creation = OK [Sensor][0m
+[1;32m- OmniWheel	24:56.389 SUCCESS: Core shared memory creation = OK [Command][0m
+[1;32m- OmniWheel	24:56.390 SUCCESS: User shared memory creation = OK[0m
+[1;32m- OmniWheel	24:56.394 SUCCESS: Flag real-time thread start = OK[0m
+[1;32m- OmniWheel	24:56.395 SUCCESS: Task real-time thread start = OK[0m
+- OmniWheel	24:56.395 INFO   : WalkReady AL number : 3[0m
+- Daemon	24:57.729 INFO   : CMD: DAEMON_PROCESS_CREATE[0m
+[1;32m- Daemon	24:57.744 SUCCESS: AL[4: FreeWalking] is working now..[0m
+
+[1;31m- FreeWalking	24:57.796 ERROR  : ===========AL Setting============[0m
+[1;33m- FreeWalking	24:57.797 WARNING: /home/rainbow/podo_nrl/build/ALBuild/PODO_PROC_Build/FreeWalking[0m
+[1;33m- FreeWalking	24:57.797 WARNING: AL for Robot[0m
+[1;33m- FreeWalking	24:57.797 WARNING: AL Number: 4[0m
+[1;31m- FreeWalking	24:57.797 ERROR  : =================================[0m
+
+[1;32m- FreeWalking	24:57.797 SUCCESS: Core shared memory creation = OK [Reference][0m
+[1;32m- FreeWalking	24:57.797 SUCCESS: Core shared memory creation = OK [Sensor][0m
+[1;32m- FreeWalking	24:57.797 SUCCESS: Core shared memory creation = OK [Command][0m
+[1;32m- FreeWalking	24:57.797 SUCCESS: User shared memory creation = OK[0m
+[1;32m- FreeWalking	24:57.798 SUCCESS: Flag real-time thread start = OK[0m
+[1;32m- FreeWalking	24:57.798 SUCCESS: Task real-time thread start = OK[0m
+=============================== Walking Complete !!!!!!!!! ===============================
+IK Version: 20150423
+>>> COMMAND: WALKREADY_GO_WALKREADYPOS
+- Daemon	25:38.538 INFO   : CMD: DAEMON_SENSOR_FT_NULL[0m
+- Daemon	25:43.073 INFO   : CMD: DAEMON_SENSOR_FT_NULL[0m
+- Daemon	28:58.838 INFO   : CMD: DAEMON_SENSOR_FOG_NULL[0m
+- Daemon	28:58.840 INFO   : FOG nulling...[0m
+- Daemon	29:00.837 INFO   : FOG nulling done[0m
+- Daemon	29:03.472 INFO   : CMD: DAEMON_SENSOR_FOG_NULL[0m
+total lower mass : 41.770000
+total mass : 77.770000
+>>> COMMAND: WALKREADY_GO_WALKREADYPOS
+FK com = -0.041059,0.000000,0.741887,WBIK_Q[idXYZ] = -0.037382,0.000000,0.792756
+FK com = -0.000000,0.000000,0.770000,WBIK_Q[idXYZ] = 0.003678,-0.000000,0.820869
+QT = 1.000000, 0.000000, 0.000000, 0.000000
+QT = 1.000000, 0.000000, 0.000000, 0.000000
+FK_pRFoot_3x1[0] = 0.003678, FK_pRFoot_3x1[1] = -0.105000, FK_pRFoot_3x1[2] = -0.097131,FK_pLFoot_3x1[0] = 0.003678, FK_pLFoot_3x1[1] = 0.105000, FK_pLFoot_3x1[2] = -0.097131
+FK3 com = -0.000000,0.000000,0.770000,PEL = 0.003678,-0.000000,0.820869,RF = 0.003678,-0.105000,-0.097131,LF = 0.003678,0.105000,-0.097131
+init_WBIK_pCOM : (-0.000000,0.000000,0.770000),init_WBIK_Q : (0.003678,-0.000000,0.820869)
+WalkReadyCOM[2] = 0.770000,AddComInfos[0][2] = 0.000000
+========================
+PEL : 0.003678,-0.000000,0.820869,1.000000,0.000000,0.000000,0.000000
+RLEG : 0.000000,0.000000,0.000000,0.000000,0.000000,0.000000
+LLEG : 0.000000,0.000000,0.000000,0.000000,0.000000,0.000000
+RARM : 0.000000,-0.261799,0.000000,-0.349066,0.000000,0.000000,0.000000
+LARM : 0.000000,0.261799,0.000000,-0.349066,0.000000,0.000000,0.000000
+========================
+FK com = 0.000000,0.000000,0.770000,PEL = 0.003678,-0.000000,0.820869,
+RF = 0.003678,-0.105000,-0.097131,LF = 0.003678,0.105000,-0.097131
+qRF =-0.000000,0.000000,-0.000000, qLF = -0.000000,0.000000,-0.000000
+QT = 1.000000, 0.000000, 0.000000, 0.000000
+QT = 1.000000, 0.000000, 0.000000, 0.000000
+FK_pRFoot_3x1[0] = 0.003678, -0.105000, -0.097131,FK_pLFoot_3x1[0] = 0.003678, 0.105000, -0.097131
+Zero gain LeftArm!
+Zero Gain Right Arm!
+>>> COMMAND: FREEWALK_WALK
+- Daemon	29:59.832 INFO   : CMD: DAEMON_SENSOR_FOG_NULL[0m
+FK3 com = 0.044270,0.000000,0.850501,PEL = 0.003678,-0.000000,0.820869,RF = 0.048630,-0.105000,0.026986,LF = 0.048630,0.105000,0.026986
+init_WBIK_pCOM : (0.044270,0.000000,0.850501),init_WBIK_Q : (0.003678,-0.000000,0.820869)
+WalkReadyCOM[2] = 0.800000,AddComInfos[0][2] = 0.000000
+========================
+PEL : -0.040593,-0.000000,0.770368,1.000000,0.000000,0.000000,0.000000
+RLEG : 0.000000,0.000000,-0.620504,1.136904,-0.516400,0.000000
+LLEG : 0.000000,0.000000,-0.620504,1.136904,-0.516400,0.000000
+RARM : 0.698132,-0.087266,0.000000,-2.617994,0.349066,0.000000,0.000000
+LARM : 0.698132,0.087266,0.000000,-2.617994,0.349066,0.000000,0.000000
+========================
+FK com = -0.000000,0.000000,0.800000,PEL = -0.040593,-0.000000,0.770368,
+RF = 0.004359,-0.105000,-0.023515,LF = 0.004359,0.105000,-0.023515
+qRF =-0.000000,0.000000,0.000000, qLF = -0.000000,0.000000,0.000000
+QT = 1.000000, 0.000000, 0.000000, 0.000000
+QT = 1.000000, 0.000000, 0.000000, 0.000000
+FK_pRFoot_3x1[0] = 0.004359, -0.105000, -0.023515,FK_pLFoot_3x1[0] = 0.004359, 0.105000, -0.023515
+F
+NORMAL TASK speed set DSP: 0.000000  SSP: 0.000000 
+num = 1, length = 0.004000, angle = 15.000000
+ 1st LF=(0.004359,0.105000,-0.023515),(-0.000000,0.000000,0.000000),RF=(0.004359,-0.105000,-0.023515),(-0.000000,0.000000,0.000000)
++++++++++forward_foot_print+++++++++++
+FOOT_RIGHT!!
+2th LF=(0.004359,0.105000,-0.023515),(-0.000000,0.000000,0.000000),RF=(0.008359,-0.115000,-0.023515),(-0.000000,0.000000,0.000000)
+LEFT FOOT
+last LF=(0.008359,0.105000,-0.023515),(-0.000000,0.000000,0.000000),RF=(0.008359,-0.115000,-0.023515),(-0.000000,0.000000,0.000000)
+,X=0.008359,Y=-0.005000
+last LF=(0.008359,0.105000,-0.023515),(-0.000000,0.000000,0.000000),RF=(0.008359,-0.114000,-0.023515),(-0.000000,0.000000,0.000000)
+,X=0.008359,Y=-0.004500
+>> this is ExecuteBeginState() : DSPStateInit...
+>>>>>>>>>>>>>SSP time : 0.720000  DSP time : 0.180000 
+----------------------NORMAL-----------------------
+Foot selector com_z: 0.000000 
+Foot selector com_z: 0.000000 
+foot selector -> R Height not diff & Normal Walking!!
+IsUpward = 0
+DSPStateInit comz : 0.000000 
+DSPSTATE RIGHT EVEN 0.000000 
+LEFT FOOT -> POS[2]-0.0235153RIGHT FOOT -> POS[2]-0.0235153preliminary_state_I: -0.000000    pv_state_old: -0.000000 
+preliminary_state_I: 0.000000    pv_state_old: 0.000000 
+Invmodel reset!!!
+controllers reset!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+>> this is ExecuteEndState() : DSPStateInit...
+>> this is ExecuteBeginState() : SSPForwardState...
+>>>>>>>>>>>>>SSP time : 0.720000  DSP time : 0.180000 
+----------------------NORMAL-----------------------
+Foot selector com_z: 0.000000 
+foot selector -> R Height not diff & Normal Walking!!
+IsUpward = 0
+SSP Right  prelf -0.023515   com :0.000000, 0.000000
+SSP RIGHT 0.008,  -0.115,  -0.024,  -0.000,  0.000,  0.000,  0.000
+SSPSTATEFORWARD normal walking
+>> this is ExecuteEndState() : SSPForwardState...
+>> this is ExecuteBeginState() : DSPState...
+>>>>>>>>>>>>>SSP time : 0.720000  DSP time : 0.180000 
+----------------------NORMAL-----------------------
+Foot selector com_z: 0.000000 
+foot selector ->L Height not diff & Normal Walking!! 
+IsUpward = 0
+>> this is ExecuteEndState() : DSPState...
+>> this is ExecuteBeginState() : SSPForwardState...
+>>>>>>>>>>>>>SSP time : 0.720000  DSP time : 0.180000 
+----------------------NORMAL-----------------------
+Foot selector com_z: 0.000000 
+foot selector ->L Height not diff & Normal Walking!! 
+IsUpward = 0
+SSP Right  prelf -0.023515   com :0.000000, 0.000000
+SSP LEFT 0.008  0.105  -0.024  -0.000  0.000  0.000  0.000 
+SSPSTATEFORWARD normal walking 
+ssp time_diff 0.720720 
+>> this is ExecuteEndState() : SSPForwardState...
+>> this is ExecuteBeginState() : DSPState...
+>>>>>>>>>>>>>SSP time : 0.720000  DSP time : 0.180000 
+----------------------NORMAL-----------------------
+Foot selector com_z: 0.000000 
+foot selector -> R Height not diff & Normal Walking!!
+IsUpward = 0
+>> this is ExecuteEndState() : DSPState...
+>> this is ExecuteBeginState() : SSPForwardState...
+>>>>>>>>>>>>>SSP time : 0.720000  DSP time : 0.180000 
+----------------------NORMAL-----------------------
+Foot selector com_z: 0.000000 
+foot selector -> R Height not diff & Normal Walking!!
+IsUpward = 0
+SSP Right  prelf -0.023515   com :0.000000, 0.000000
+SSP RIGHT 0.008,  -0.114,  -0.024,  -0.000,  0.000,  0.000,  0.000
+SSPSTATEFORWARD normal walking
+>> this is ExecuteEndState() : SSPForwardState...
+>> this is ExecuteBeginState() : DSPStateFinal...
+total lower mass : 41.770000
+total mass : 77.770000
+>>> COMMAND: WALKREADY_GO_WALKREADYPOS
+total lower mass : 41.770000
+total mass : 77.770000
+>>> COMMAND: WALKREADY_GO_HOMEPOS
+- Connect2GUI	31:34.537 INFO   : Client is disconnected[0m
+[1;31m- FreeWalking	31:41.224 ERROR  : Process FreeWalking is terminated
+[0m
+>>>>>>>>>>>>>SSP time : 0.720000  DSP time : 0.180000 
+----------------------NORMAL-----------------------
+>> Step No.= 1
+>> Step No.= 2 
+>> Step No.= 3
+=============================== Walking Complete !!!!!!!!! ===============================
+FK3 com = 0.011428,-0.000729,0.800032,PEL = -0.027156,0.000296,0.770965,RF = 0.009127,-0.116710,-0.023985,LF = 0.008656,0.105429,-0.022783
+init_WBIK_pCOM : (0.011428,-0.000729,0.800032),init_WBIK_Q : (-0.027156,0.000296,0.770965)
+WalkReadyCOM[2] = 0.800000,AddComInfos[0][2] = 0.000000
+========================
+PEL : -0.038584,0.001025,0.770933,1.000000,0.000000,0.000000,0.000000
+RLEG : -0.000099,-0.012432,-0.604206,1.134134,-0.538045,-0.018757
+LLEG : -0.000001,-0.000663,-0.608694,1.140122,-0.528996,0.005825
+RARM : 0.698132,-0.087266,0.000000,-2.617994,0.349066,0.000000,0.000000
+LARM : 0.698132,0.087266,0.000000,-2.617994,0.349066,0.000000,0.000000
+========================
+FK com = 0.000000,0.000000,0.800000,PEL = -0.038584,0.001025,0.770933,
+RF = -0.002301,-0.115981,-0.024016,LF = -0.002772,0.106158,-0.022815
+qRF =0.000094,-1.787047,-0.465067, qLF = -0.000130,0.295801,0.139338
+QT = 0.999870, -0.015594, -0.004058, -0.000062
+QT = 0.999870, -0.015594, -0.004058, -0.000062
+FK_pRFoot_3x1[0] = -0.002301, -0.115981, -0.024016,FK_pLFoot_3x1[0] = -0.002772, 0.106158, -0.022815
+>>> Process OmniWheel is terminated..!!
+[1;31m- WalkReady	31:41.224 ERROR  : Process WalkReady is terminated
+[0m
+[1;31m- Daemon	31:41.590 ERROR  : AL[1: PODOLAN] is not activated before..[0m
+[1;31m- Daemon	31:41.592 ERROR  : AL[2: WalkReady] is not activated before..[0m
+[1;31m- Daemon	31:41.593 ERROR  : AL[3: OmniWheel] is not activated before..[0m
+[1;31m- Daemon	31:41.595 ERROR  : AL[4: FreeWalking] is not activated before..[0m
+[1;31m- Daemon	31:41.596 ERROR  : AL[5: ALTutorial] is not activated before..[0m
+[1;31m- Daemon	31:41.598 ERROR  : AL[6: DemoFireAL] is not activated before..[0m
+[1;31m- Daemon	31:41.599 ERROR  : AL[7: ManualMove] is not activated before..[0m
+[1;31m- Daemon	31:41.601 ERROR  : AL[8: CarTask] is not activated before..[0m
+[1;31m- Daemon	31:41.602 ERROR  : AL[9: ALNRL] is not activated before..[0m
+[1;31m- Daemon	31:42.602 ERROR  : RBCore will be terminated..[0m
+32minitialized.[0m[ch 1]
+>>> RMSP: Board(24: SPC) is [32minitialized.[0m[ch 1]
+>>> RMOF: Board(52: ROF) is [32minitialized.[0m[ch 0]
+>>> RMOF: Board(56: LOF) is [32minitialized.[0m[ch 1]
+>>> RMMC: Board(0: RHY) is [32minitialized.[0m[ch 0]
+>>> RMMC: Board(1: RHR) is [32minitialized.[0m[ch 0]
+>>> RMMC: Board(2: RHP) is [32minitialized.[0m[ch 0]
+>>> RMMC: Board(3: RKN) is [32minitialized.[0m[ch 0]
+>>> RMMC: Board(4: RAP, RWH) is [32minitialized.[0m[ch 0]
+>>> RMMC: Board(5: RAR) is [32minitialized.[0m[ch 0]
+>>> RMMC: Board(6: LHY) is [32minitialized.[0m[ch 1]
+>>> RMMC: Board(7: LHR) is [32minitialized.[0m[ch 1]
+>>> RMMC: Board(8: LHP) is [32minitialized.[0m[ch 1]
+>>> RMMC: Board(9: LKN) is [32minitialized.[0m[ch 1]
+>>> RMMC: Board(10: LAP, LWH) is [32minitialized.[0m[ch 1]
+>>> RMMC: Board(11: LAR) is [32minitialized.[0m[ch 1]
+>>> RMMC: Board(12: WST) is [32minitialized.[0m[ch 1]
+>>> RMMC: Board(13: RSP) is [32minitialized.[0m[ch 2]
+>>> RMMC: Board(14: RSR) is [32minitialized.[0m[ch 2]
+>>> RMMC: Board(15: RSY, REB) is [32minitialized.[0m[ch 2]
+>>> RMMC: Board(16: RWY, RWP) is [32minitialized.[0m[ch 2]
+>>> RMMC: Board(17: LSP) is [32minitialized.[0m[ch 3]
+>>> RMMC: Board(18: LSR) is [32minitialized.[0m[ch 3]
+>>> RMMC: Board(19: LSY, LEB) is [32minitialized.[0m[ch 3]
+>>> RMMC: Board(20: LWY, LWP) is [32minitialized.[0m[ch 3]
+>>> RMMC: Board(36: RWY2, RHAND) is [32minitialized.[0m[ch 2]
+>>> RMMC: Board(37: LWY2, LHAND) is [32minitialized.[0m[ch 3]
+>>> RMMC: Board(21: NKP1, NKY) is [32minitialized.[0m[ch 3]
+>>> RMMC: Board(22: NKP2, NKR) is [32minitialized.[0m[ch 3]
+>>> RMMC: Board(38: RF1, RF2) is [32minitialized.[0m[ch 2]
+>>> RMMC: Board(39: RF3, RF4) is [32minitialized.[0m[ch 2]
+>>> RMMC: Board(40: LF1, LF2) is [32minitialized.[0m[ch 3]
+>>> RMMC: Board(41: LF3, LF4) is [32minitialized.[0m[ch 3]
+>>> RMFT: Board(48: RAFT) is [32minitialized.[0m[ch 0]
+>>> RMFT: Board(49: LAFT) is [32minitialized.[0m[ch 1]
+>>> RMFT: Board(53: RWFT) is [32minitialized.[0m[ch 2]
+>>> RMFT: Board(54: LWFT) is [32minitialized.[0m[ch 3]
+>>> RMIMU: Board(50: IMU) is [32minitialized.[0m[ch 1]
+>>> RMSP: Board(24: SPC) is [32minitialized.[0m[ch 1]
+>>> RMOF: Board(52: ROF) is [32minitialized.[0m[ch 0]
+>>> RMOF: Board(56: LOF) is [32minitialized.[0m[ch 1]

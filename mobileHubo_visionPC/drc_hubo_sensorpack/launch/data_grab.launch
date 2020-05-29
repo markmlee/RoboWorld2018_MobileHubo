@@ -1,0 +1,12 @@
+﻿<launch>
+
+	<include file= "/home/rainbow/catkin_ws/src/realsense/realsense2_camera/launch/rs_rgbd_hubo.launch"/>	
+
+	<include file= "/home/rainbow/catkin_ws/src/velodyne/velodyne_pointcloud/launch/VLP16_points.launch"/>
+	
+	<include file= "/home/rainbow/catkin_ws/src/zed-ros-wrapper/launch/zed.launch"/>
+	
+	 
+	<node pkg = "drc_hubo_sensorpack" type = "drc_hubo_sensorpack_timesync" name="drc_hubo_sensorpack_timesync" />
+
+</launch>

@@ -1,0 +1,19 @@
+enum{
+    GRASP_NO_ACT = 0, GRASP_STOP, GRASP_START, GRASP_APPROACH, GRASP_GRASP, GRASP_LIFT, GRASP_BACK,
+    GRASP_WALKREADY, GRASP_PUT, GRASP_DONE, PUT_START, PUT_PUT, PUT_BACK, PUT_WALKREADY, PUT_DONE
+};
+
+
+
+
+Save_Data[39][Save_Index] = sharedSEN->FT[2].Fx;
+Save_Data[40][Save_Index] = sharedSEN->FT[2].Fy;
+Save_Data[41][Save_Index] = sharedSEN->FT[2].Fz;
+
+Save_Data[42][Save_Index] = sharedSEN->FT[3].Fx;
+Save_Data[43][Save_Index] = sharedSEN->FT[3].Fy;
+Save_Data[44][Save_Index] = sharedSEN->FT[3].Fz;
+
+Save_Data[45][Save_Index] = sharedSEN->ENCODER[MC_ID_CH_Pairs[RHAND].id][MC_ID_CH_Pairs[RHAND].ch].CurrentPosition;
+Save_Data[46][Save_Index] = sharedSEN->ENCODER[MC_ID_CH_Pairs[LHAND].id][MC_ID_CH_Pairs[LHAND].ch].CurrentPosition;
+

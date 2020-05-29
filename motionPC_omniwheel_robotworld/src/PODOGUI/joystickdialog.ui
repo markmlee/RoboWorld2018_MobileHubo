@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>JoyStickDialog</class>
+ <widget class="QDialog" name="JoyStickDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>773</width>
+    <height>520</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="JOY_BTN_START">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Joy Start</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="JOY_BTN_STOP">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>10</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Joy Stop</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="JOY_TABLE_INFO_LEFT">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>121</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <attribute name="horizontalHeaderMinimumSectionSize">
+    <number>8</number>
+   </attribute>
+   <attribute name="verticalHeaderDefaultSectionSize">
+    <number>27</number>
+   </attribute>
+   <attribute name="verticalHeaderMinimumSectionSize">
+    <number>10</number>
+   </attribute>
+   <row>
+    <property name="text">
+     <string>L-LT</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>L-LB</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>L-JOG-RL</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>L-JOG-UD</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>L-ARW_RL</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>L-ARW_UD</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>R-JOG-BTN</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>L-JOG-BTN</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>BTN-BACK</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>Value</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QTableWidget" name="JOY_TABLE_INFO_RIGHT">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>50</y>
+     <width>121</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <attribute name="horizontalHeaderMinimumSectionSize">
+    <number>8</number>
+   </attribute>
+   <attribute name="verticalHeaderDefaultSectionSize">
+    <number>27</number>
+   </attribute>
+   <attribute name="verticalHeaderMinimumSectionSize">
+    <number>10</number>
+   </attribute>
+   <row>
+    <property name="text">
+     <string>R-RT</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>R-RB</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>R-JOG-RL</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>R-JOG-UD</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>BTN-Y</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>BTN-X</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>BTN-B</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>BTN-A</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>BTN-START</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>Value</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="JOY_TAB_WHEELSTART">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>10</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Wheel Manual Move Start</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="JOY_TAB_WHEELSTOP">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>10</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Wheel Manual Move Stop</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="MANUAL_BTN_START">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>70</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>One Hand</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="MANUAL_BTN_STOP">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>70</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Manual Stop</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>10</y>
+     <width>20</width>
+     <height>501</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

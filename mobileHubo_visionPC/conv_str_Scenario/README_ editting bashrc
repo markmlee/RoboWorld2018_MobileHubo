@@ -1,0 +1,44 @@
+***EDITING .bashrc for easy access to conv_str_Scenario folder***
+1. open .bashrc file with any text editor
+ $ cd ~
+ $ gedit .bashrc
+
+2. Add following line at the end of the .bashrc file
+ alias ccss='cd ~/Desktop/conv_str_Scenario'
+
+3. save and close
+
+4. source .bashrc file to update eddited bashrc file
+ $ source .bashrc
+
+
+***HOW TO USE***
+1. start realsense module
+ $ ccss
+ $ . 1_realsense_on.sh
+
+2. open a new tab on the same terminal and run slam module.
+ $ ccss
+ $ . 2_slam.sh (if map is already created)
+
+2-1. if map is not created yet
+ $ ccss
+ $ . 2_slam_map.sh
+ after map is created, finish the node and start slam module
+ $ . 2_slam.sh
+
+3. open a new terminal and run object_detection module
+ $ ccss
+ $ . 3_object detection
+
+4. open a new tab, and run fsm module
+ $ ccss
+ $ . 4_fsm.sh
+
+5. open a new tab, and run communication module
+ $ ccss
+ $ . 5_communication.sh
+
+6. open a new tab, and run order publisher node
+ $ ccss
+ $ . tablet.sh

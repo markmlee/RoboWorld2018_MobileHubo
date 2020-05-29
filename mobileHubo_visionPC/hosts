@@ -1,0 +1,14 @@
+127.0.0.1	localhost
+127.0.1.1	rainbow
+
+10.12.3.20      vision_pc
+10.12.3.30      motion_pc
+10.12.3.5       operating_pc
+
+
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters

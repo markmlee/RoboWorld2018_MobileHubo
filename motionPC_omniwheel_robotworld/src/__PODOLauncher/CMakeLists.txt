@@ -1,0 +1,12 @@
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/exe)
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTORRC ON)
+set(CMAKE_AUTOUIC ON)
+set(CMAKE_INCLUDE_CURRENT_DIR ON)
+find_package(Qt5Core REQUIRED)
+find_package(Qt5Widgets REQUIRED)
+add_definitions(-D_GNU_SOURCE -D_REENTRANT -D__COBALT__)
+add_executable(PODOLauncher main.cpp LauncherDialog.cpp LauncherDialog.ui icon.qrc)
+qt5_use_modules(PODOLauncher Core Widgets)
+add_custom_command(TARGET PODOLauncher POST_BUILD
+		COMMAND ${CMAKE_COMMAND} -E copy_directory ${CMAKE_SOURCE_DIR}/share/configs ${CMAKE_BINARY_DIR}/exe/configs)

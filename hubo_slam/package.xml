@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package>
+    <name>hubo_slam</name>
+    <version>0.0.1</version>
+    <description>Provides configuration necessary for 3D SLAM on Hubo</description>
+    <maintainer email="kent.sommer13@gmail.com">Kent Sommer</maintainer>
+    <license>Apache 2.0</license>
+    <url type="website">http://nmail.kaist.ac.kr</url>
+
+    <buildtool_depend>catkin</buildtool_depend>
+
+    <export>
+    </export>
+</package>

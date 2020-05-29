@@ -1,0 +1,5 @@
+<launch>
+   <param name="/use_sim_time" value="false" />
+   <include file="$(find microstrain_3dm_gx5_45)/launch/microstrain_25.launch" />
+   <include file="$(find velodyne_pointcloud)/launch/VLP16_points.launch" />
+</launch>

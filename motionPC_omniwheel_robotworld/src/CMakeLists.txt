@@ -1,0 +1,6 @@
+add_subdirectory(__DeviceManager)
+add_subdirectory(__Daemon)
+add_subdirectory(__PODOLauncher)
+add_subdirectory(__Lib_RBModel)
+add_subdirectory(PODOGUI)
+add_subdirectory(ALPrograms)
