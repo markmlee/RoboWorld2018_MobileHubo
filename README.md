@@ -19,4 +19,4 @@ This overall hardware platform and software framework are described in the follo
 Please refer to this ([link](http://www.kirobotics.com/w/index.php?title=Gogo:Proj_DevelopementOfCoreTechnology_Software_Install_Manual))
 
 ## Operation
-Please refer to this [link]((http://www.kirobotics.com/w/index.php?title=Gogo:Proj_DevelopementOfCoreTechnology_Operation_Manual))
+Please refer to this ([link](http://www.kirobotics.com/w/index.php?title=Gogo:Proj_DevelopementOfCoreTechnology_Operation_Manual))
