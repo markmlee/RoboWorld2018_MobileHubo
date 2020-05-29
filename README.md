@@ -1,7 +1,7 @@
 # RoboWorld2018_MobileHubo
 Automated Convenience Store Scenario: Fetch Beverage 
 
-
+<a alt="Scenario video" href="https://youtu.be/xDmYLFKTHFk"><img src="/images/roboworld_scenario.png" align="left" width="700" ></a>
 
 ## Overview
 This package is for operating the Automated Convinience Store application with the Mobile Hubo platform. This can fetch beverages by itself. The robot is capable of SLAM and Object detection using deep neural network. 
